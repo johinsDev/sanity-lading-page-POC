@@ -1,0 +1,40 @@
+@import './base.css';
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-center text-black font-montserrat text-lg md:text-28 tracking-3 uppercase;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  h1 {
+    @apply text-white tracking-5 text-2xl sm:text-3xl md:text-4xl lg:text-6xl lg:leading-80;
+  }
+
+  p {
+    @apply text-black font-caslon text-base tracking-normal leading-loose;
+  }
+
+  button {
+    @apply bg-transparent uppercase text-13.5 font-montserrat tracking-1.62 border border-black text-black flex justify-center items-center py-2 px-3 hover:bg-black hover:text-white focus:outline-none w-max;
+  }
+
+  section {
+    @apply text-center px-4 md:px-0 py-8 md:py-20;
+  }
+
+  a {
+    @apply bg-transparent uppercase text-13.5 font-montserrat tracking-1.62 border border-black text-black flex justify-center items-center py-2 px-3 hover:bg-black hover:text-white focus:outline-none w-max;
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "packages/web/*.{js,jsx,ts,tsx}": ["npm run fix:lint"],
+  "packages/web/*.{md,mdx,json}": ["npm run fix:prettier"]
+}
