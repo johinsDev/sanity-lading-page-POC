@@ -21,8 +21,6 @@
     "husky": "^6.0.0"
   },
   "dependencies": {
-    "@sanity/block-content-to-react": "^3.0.0",
-    "@sanity/client": "^2.11.0",
-    "next-sanity-image": "^3.1.2"
+    "@sanity/block-content-to-react": "^3.0.0"
   }
 }
