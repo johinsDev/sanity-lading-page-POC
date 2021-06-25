@@ -1,9 +1,8 @@
-import GridSection from '@components/sections/Grid'
 import { FC } from 'react'
 const PartnerWithUs: FC = () => {
   return (
     <>
-      <GridSection />
+      {/* <GridSection /> */}
 
       <section className="bg-pink">
         <div className="container mx-auto flex flex-col items-center justify-center">
